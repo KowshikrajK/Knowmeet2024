@@ -103,13 +103,13 @@ section img{
 
 .center .left{
     background-image: url(/assets/choose1.svg);
-    width: 420px;
+    width: 100%;
     height: 280px;
 }
 
 .center .right{
     background-image: url(/assets/choose2.svg);
-    width: 420px;
+    width: 100%;
     height: 280px;
 }
 
