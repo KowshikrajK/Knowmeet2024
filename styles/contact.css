@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400;500;600;700;800;900&display=swap');
+  
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #080808;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; 
+}
+  
+::-webkit-scrollbar-track {
+    background: #151515; 
+}
+  
+  
+:root {
+    --black: #000;
+    --lightBlack: #111111;
+    --white: #fff;
+    --AdventPro: 'Advent Pro', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 400ms ease;
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+    font-family: var(--AdventPro);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.navLeft{
+    display: flex;
+    gap: 2rem;
+    z-index: 2;
+}
+
+.navLeft a{
+    color: var(--white);
+    text-decoration: none;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.navLeft a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-radius: 4px;
+    background-color: var(--white);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  
+}
+
+.navLeft a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.imageBorder{
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+section img{
+    width: 300px;
+}
+
+section .frame{
+    display: flex;
+    gap: 2rem;
+}
+
+section .frame .left:hover{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 15px 25px;
+}
+
+section .frame .right:hover{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 15px 25px;
+}
+
+section .frame .left{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3rem;
+    background: var(--lightBlack);
+    width: 500px;
+    height: 200px;
+    padding: 4rem 2rem;
+}
+
+section .frame .left .img1{
+    background-image: url(/assets/people1.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+section .frame .left .img3{
+    background-image: url(/assets/people1.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+section .frame .left .img5{
+    background-image: url(/assets/people1.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+section .frame .left .info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+section .frame .left .info h2{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section .frame .left .info h3{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section .frame .left .info p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section .frame .left .info .whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--white);
+    color: var(--black);
+    cursor: pointer;
+}
+
+section .frame .left .info .whatsapp:hover{
+    color: var(--white);
+    border: 1px solid var(--white);
+    background: transparent;
+}
+
+section .frame .left .info .whatsapp i{
+    width: 20px;
+    height: 20px;
+}
+
+section .frame .right{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 3rem;
+    background: var(--lightBlack);
+    width: 500px;
+    height: 200px;
+    padding: 4rem 2rem;
+}
+
+section .frame .right .img2{
+    background-image: url(/assets/people1.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+section .frame .right .img4{
+    background-image: url(/assets/people1.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+section .frame .right .img6{
+    background-image: url(/assets/people1.jpg);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+section .frame .right .info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+section .frame .right .info h2{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section .frame .right .info h3{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section .frame .right .info p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section .frame .right .info .whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--white);
+    color: var(--black);
+    cursor: pointer;
+}
+
+section .frame .right .info .whatsapp:hover{
+    color: var(--white);
+    border: 1px solid var(--white);
+    background: transparent;
+}
+
+section .frame .right .info .whatsapp i{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    margin-top: 2rem;
+    width: 100%;
+    height: 50px;
+    background: var(--lightBlack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+footer p span{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1208px) {
+    nav{
+        justify-content: center;
+    }
+
+    section .frame{
+        flex-direction: column;
+    }
+
+    section .frame .left{
+        width: 800px;
+    }
+    
+    section .frame .right{
+        width: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    section .frame .left{
+        width: 500px;
+    }
+    
+    section .frame .right{
+        width: 500px;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+
+    footer p span{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 598px) {
+    nav{
+        display: none;
+    }
+
+    footer p{
+        font-size: 7px;
+    }
+
+    footer p span{
+        font-size: 8px;
+    }
+}
