@@ -502,7 +502,7 @@ footer p span{
     .hero-content .time h1{
         color: var(--white);
         -webkit-text-stroke: 0;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     
     .hero-content .time h3{
