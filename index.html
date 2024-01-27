@@ -7,6 +7,7 @@
     <link rel="icon" href="/assets/km24.svg" type="image/svg">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <div class="menu">
@@ -62,9 +63,23 @@
     <section id="Events" class="events">
         <div class="linearGradient"></div>
 
-        <img src="./assets/Events.svg" alt="Events.svg">
+        <img class="eventlogo" src="./assets/Events.svg" alt="Events.svg">
 
-        <div class="images">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-angle-left"></i>
+            <div class="carousel">
+              <img src="/assets/event1.svg" alt="img" draggable="false">
+              <img src="/assets/event2.svg" alt="img" draggable="false">
+              <img src="/assets/event3.svg" alt="img" draggable="false">
+              <img src="/assets/event4.svg" alt="img" draggable="false">
+              <img src="/assets/event5.svg" alt="img" draggable="false">
+              <img src="/assets/event6.svg" alt="img" draggable="false">
+              <img src="/assets/event7.svg" alt="img" draggable="false">
+              <img src="/assets/event8.svg" alt="img" draggable="false">
+            </div>
+            <i id="right" class="fa-solid fa-angle-right"></i>
+          </div>
+        <!-- <div class="images">
             <div class="imageBorder"><div class="img1">
                 
             </div></div>
@@ -75,7 +90,7 @@
                
             </div></div>
             
-        </div>
+        </div> -->
 
         <button id="eventBtn" class="eventBtn">Show More</button>
     </section>

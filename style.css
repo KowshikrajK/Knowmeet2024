@@ -182,9 +182,74 @@ nav {
     z-index: 0;
 }
 
-.events img{
+.wrapper{
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+    overflow-x: visible;
+}
+  .wrapper i{
+    z-index: 1;
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343F4F;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+  }
+  .wrapper i:active{
+    transform: translateY(-50%) scale(0.9);
+  }
+  .wrapper i:hover{
+    background: #f2f2f2;
+  }
+  .wrapper i:first-child{
+    left: -22px;
+    display: none;
+  }
+  .wrapper i:last-child{
+    right: -22px;
+  }
+  .wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .carousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging img{
+    pointer-events: none;
+  }
+  .carousel img{
+    height: 350px;
+    object-fit: cover;
+    user-select: none;
+    margin-left: 14px;
+    width: calc(100% / 3);
+    filter: grayscale(100);
+  }
+  
+  .carousel img:hover{
+    filter: grayscale(0);
+  }
+  .carousel img:first-child{
+    margin-left: 0px;
+  }
+
+.events .eventlogo{
     width: 200px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .imageBorder{
@@ -244,6 +309,7 @@ nav {
     padding: 1rem 2rem;
     border: 1px solid var(--white);
     cursor: pointer;
+    margin-top: 2rem;
 }
 
 .eventBtn:hover{
@@ -252,7 +318,7 @@ nav {
 
 .stringStar1{
     position: absolute;
-    top: 69rem;
+    top: 68rem;
     left: 0rem;
     background-image: url(/assets/Workshop\ String.svg);
     background-size: cover;
@@ -263,7 +329,7 @@ nav {
 
 .stringStar2{
     position: absolute;
-    top: 120rem;
+    top: 118rem;
     left: 0rem;
     background-image: url(/assets/About\ String.svg);
     background-size: cover;
@@ -390,6 +456,10 @@ footer p span{
 /* Media Query */
 
 @media only screen and (max-width: 1208px) {
+    .wrapper{
+        max-width: 800px;
+    }
+
     .stringStar1{
         top: 97rem;
         left: 0rem;
@@ -418,6 +488,13 @@ footer p span{
 }
 
 @media only screen and (max-width: 768px) {
+    .wrapper{
+        max-width: 600px;
+    }
+    .carousel img{
+        height: 230px;
+    }
+
     .title img{
         width: 500px;
     }
@@ -457,6 +534,18 @@ footer p span{
 }
 
 @media only screen and (max-width: 598px) {
+    .wrapper{
+        max-width: 400px;
+    }
+
+    .carousel img{
+        width: 250px;
+        height: 300px;
+    }
+
+    .wrapper i{
+        top: 60%;
+    }
 
     .title{
         padding-left: 2rem;
