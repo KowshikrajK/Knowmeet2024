@@ -480,7 +480,7 @@ footer p span{
         width: 100%;
         height: 17.7rem;
         background: rgba(0,0,0,.1);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(10px);
     }
 
     .menu{
@@ -491,8 +491,16 @@ footer p span{
         display: none;
     }
 
+    .hero-content{
+        top: -6rem;
+    }
+    
+    .events .linearGradient{
+        top: 25rem;
+    }
+
     .events img{
-        margin-top: 9rem;
+        margin-top: 5rem;
     }
 
     .hero-content .time h1{
