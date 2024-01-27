@@ -355,6 +355,37 @@ footer p span{
         width: 400px;
     }
 
+    section .frame .left .img1{
+        width: 100px;
+        height: 100px;
+    }
+    
+    section .frame .left .img3{
+        width: 100px;
+        height: 100px;
+    }
+    
+    section .frame .left .img5{
+
+        width: 100px;
+        height: 100px;
+    }
+
+    section .frame .right .img2{
+        width: 100px;
+        height: 100px;
+    }
+    
+    section .frame .right .img4{
+        width: 100px;
+        height: 100px;
+    }
+    
+    section .frame .right .img6{
+        width: 100px;
+        height: 100px;
+    }
+
     section .frame .right .info h2{
         font-size: 1rem;
     }
