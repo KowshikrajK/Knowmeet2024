@@ -462,12 +462,12 @@ footer p span{
     }
 
     .stringStar1{
-        top: 97rem;
+        top: 66rem;
         left: 0rem;
     }
     
     .stringStar2{
-        top: 150rem;
+        top: 120rem;
         left: 0rem;
     }
 
@@ -513,15 +513,13 @@ footer p span{
     }
 
     .stringStar1{
-        top: 130rem;
+        top: 61rem;
         left: 0rem;
-        height: 300px;
     }
     
     .stringStar2{
-        top: 210rem;
+        top: 140rem;
         left: 0rem;
-        height: 300px;
     }
 
     .about .content .left p{
@@ -554,6 +552,7 @@ footer p span{
         top: -3rem;
         left: 0;
     }
+    
 
     .title img{
         width: 300px;
@@ -585,7 +584,7 @@ footer p span{
         top: -6rem;
     }
 
-    .events img{
+    .events .eventlogo{
         margin-top: 6rem;
     }
 
@@ -600,7 +599,7 @@ footer p span{
     }
 
     .stringStar1{
-        top: 134rem;
+        top: 68rem;
         left: 0rem;
         height: 250px;
     }
@@ -610,7 +609,7 @@ footer p span{
     }
     
     .stringStar2{
-        top: 208rem;
+        top: 146rem;
         left: 0rem;
         height: 300px;
     }
