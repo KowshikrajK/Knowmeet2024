@@ -496,14 +496,6 @@ footer p span{
         top: -6rem;
     }
 
-    .hero-content .time h1{
-        font-size: 1.5rem;
-    }
-    
-    .hero-content .time h3{
-        font-size: 1rem;
-    }
-
     .events img{
         margin-top: 5rem;
     }
@@ -511,11 +503,11 @@ footer p span{
     .hero-content .time h1{
         color: var(--white);
         -webkit-text-stroke: 0;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     .hero-content .time h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .stringStar1{
