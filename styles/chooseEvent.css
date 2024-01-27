@@ -58,6 +58,10 @@ nav {
     display: none;
 }
 
+#close-icon{
+    display: none;
+}
+
 .navLeft{
     display: flex;
     gap: 2rem;
