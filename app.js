@@ -23,6 +23,7 @@ function updateCountDown(){
 }
 
 setInterval(updateCountDown, 1000);
+
 const menuBtn = document.querySelector('#menu-icon');
 const navbar = document.querySelector('.navLeft');
 const closeBtn = document.querySelector('#close-icon');
