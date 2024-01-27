@@ -599,7 +599,7 @@ footer p span{
     }
 
     .stringStar1{
-        top: 68rem;
+        top: 70rem;
         left: 0rem;
         height: 250px;
     }
@@ -620,11 +620,12 @@ footer p span{
     }
 
     .about .content .left p{
+        font-size: 1rem;
         text-align: center;
     }
 
     .about .content .left .logo img{
-        width: 380px;
+        width: 280px;
         margin-bottom: 2rem;
     }
     
