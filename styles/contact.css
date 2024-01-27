@@ -343,9 +343,9 @@ footer p span{
 }
 
 @media only screen and (max-width: 598px) {
-    nav{
+    /* nav{
         display: none;
-    }
+    } */
 
     section .frame .left{
         width: 400px;
