@@ -503,11 +503,11 @@ footer p span{
     .hero-content .time h1{
         color: var(--white);
         -webkit-text-stroke: 0;
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     
     .hero-content .time h3{
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     .stringStar1{
