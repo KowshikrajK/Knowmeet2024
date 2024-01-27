@@ -97,6 +97,7 @@ section img{
 
 .center{
     display: flex;
+    width: 380px;
     gap: 6rem;
 }
 
@@ -174,6 +175,10 @@ footer p span{
 @media only screen and (max-width: 598px) {
     nav{
         display: none;
+    }
+
+    section img{
+        width: 300px;
     }
 
     footer p{
