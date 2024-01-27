@@ -55,7 +55,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     padding: 1rem 3rem;
     text-transform: uppercase;
     font-weight: 600;
@@ -88,7 +88,7 @@ nav::before{
 }
 
 .menu{
-    position: absolute;
+    position: fixed;
     right: 0;
     padding: 1.2rem 1rem 0rem 0rem;
     font-size: 2.8rem;
@@ -578,7 +578,7 @@ footer p span{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: absolute;
+        position: fixed;
         top: 3rem;
         left: 0;
         width: 100%;

@@ -65,7 +65,7 @@ nav::before{
 }
 
 .menu{
-    position: absolute;
+    position: fixed;
     right: 0;
     padding: 1.2rem 1rem 0rem 0rem;
     font-size: 2.8rem;
