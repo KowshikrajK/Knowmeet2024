@@ -475,7 +475,7 @@ footer p span{
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 0;
+        top: 4rem;
         left: 0;
         width: 100%;
         height: 17.7rem;
@@ -506,7 +506,7 @@ footer p span{
     }
 
     .stringStar1{
-        top: 134rem;
+        top: 136rem;
         left: 0rem;
         height: 250px;
     }
@@ -516,7 +516,7 @@ footer p span{
     }
     
     .stringStar2{
-        top: 208rem;
+        top: 210rem;
         left: 0rem;
         height: 300px;
     }
