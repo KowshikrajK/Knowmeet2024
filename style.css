@@ -33,6 +33,7 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
