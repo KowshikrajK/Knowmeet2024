@@ -392,7 +392,7 @@ nav::before{
     align-items: center;
     justify-content: center;
     margin: 3rem;
-    padding: 2rem 8rem 5rem 8rem;
+    padding: 2rem 4rem;
 }
 
 .about .aboutImg{
@@ -416,6 +416,7 @@ nav::before{
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 1rem;
+    width: 500px;
 }
 
 .about .content .left .logo img{
@@ -424,10 +425,11 @@ nav::before{
 }
 
 .about .content .right{
-    width: 780px;
+    width: 480px;
     height: 250px;
     border: 1px solid var(--white);
-    padding: 1rem 0.4rem 1rem 1rem;
+    padding: 1rem;
+    overflow-x: visible;
 }
 
 .about .content .right iframe{
