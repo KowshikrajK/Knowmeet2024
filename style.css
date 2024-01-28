@@ -344,7 +344,7 @@ nav::before{
 
 .stringStar1{
     position: absolute;
-    top: 68rem;
+    top: 65rem;
     left: 0rem;
     background-image: url(/assets/Workshop\ String.svg);
     background-size: cover;
@@ -355,7 +355,7 @@ nav::before{
 
 .stringStar2{
     position: absolute;
-    top: 118rem;
+    top: 115rem;
     left: 0rem;
     background-image: url(/assets/About\ String.svg);
     background-size: cover;
