@@ -409,8 +409,12 @@ footer p span{
         width: 400px;
     }
 
+    .center .frame .right{
+        width: 400px;
+    }
+
     section .frame .right p{
-        width: 500px;
+        width: 470px;
     }
 
     footer p{

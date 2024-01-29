@@ -67,7 +67,7 @@ nav::before{
 
 .menu{
     position: fixed;
-    right: 0;
+    left: 26rem;
     padding: 1.2rem 1rem 0rem 0rem;
     font-size: 2.8rem;
     font-weight: 600;
@@ -408,8 +408,12 @@ footer p span{
         width: 360px;
     }
 
+    .center .frame .right{
+        width: 400px;
+    }
+
     section .frame .right p{
-        width: 500px;
+        width: 470px;
     }
 
     footer p{
