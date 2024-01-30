@@ -36,6 +36,20 @@ if(linkTreeBtn){
     });
 }
 
+const whatsappBtnSasi = document.querySelector('.whatsappSasi');
+if(whatsappBtnSasi){
+    whatsappBtnSasi.addEventListener('click', function() {
+        navigateTo('https://wa.me/+919976949310');
+    });
+}
+
+const whatsappBtnChandru = document.querySelector('.whatsappChandru');
+if(whatsappBtnChandru){
+    whatsappBtnChandru.addEventListener('click', function() {
+        navigateTo('https://wa.me/+919791889331');
+    });
+}
+
 function navigateTo(page) {
     window.location.href = page;
 }

@@ -136,6 +136,7 @@ section img{
 section .frame{
     display: flex;
     gap: 2rem;
+    padding: 5.3rem 0rem;
 }
 
 section .frame .left:hover{
@@ -152,7 +153,7 @@ section .frame .left{
     justify-content: start;
     gap: 3rem;
     background: var(--lightBlack);
-    width: 500px;
+    width: 600px;
     height: 200px;
     padding: 4rem 2rem;
 }
@@ -188,14 +189,14 @@ section .frame .left .info{
 }
 
 section .frame .left .info h2{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
 section .frame .left .info h3{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -208,7 +209,7 @@ section .frame .left .info p{
     text-transform: uppercase;
 }
 
-section .frame .left .info .whatsapp{
+section .frame .left .info .whatsappSasi{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,13 +220,13 @@ section .frame .left .info .whatsapp{
     cursor: pointer;
 }
 
-section .frame .left .info .whatsapp:hover{
+section .frame .left .info .whatsappSasi:hover{
     color: var(--white);
     border: 1px solid var(--white);
     background: transparent;
 }
 
-section .frame .left .info .whatsapp i{
+section .frame .left .info .whatsappSasi i{
     width: 20px;
     height: 20px;
 }
@@ -236,7 +237,7 @@ section .frame .right{
     justify-content: start;
     gap: 3rem;
     background: var(--lightBlack);
-    width: 500px;
+    width: 600px;
     height: 200px;
     padding: 4rem 2rem;
 }
@@ -272,14 +273,14 @@ section .frame .right .info{
 }
 
 section .frame .right .info h2{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
 section .frame .right .info h3{
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -292,7 +293,7 @@ section .frame .right .info p{
     text-transform: uppercase;
 }
 
-section .frame .right .info .whatsapp{
+section .frame .right .info .whatsappChandru{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -303,18 +304,20 @@ section .frame .right .info .whatsapp{
     cursor: pointer;
 }
 
-section .frame .right .info .whatsapp:hover{
+section .frame .right .info .whatsappChandru:hover{
     color: var(--white);
     border: 1px solid var(--white);
     background: transparent;
 }
 
-section .frame .right .info .whatsapp i{
+section .frame .right .info .whatsappChandru i{
     width: 20px;
     height: 20px;
 }
 
 footer{
+    /* position: relative;
+    top: 10.5rem; */
     margin-top: 2rem;
     width: 100%;
     height: 50px;
