@@ -128,7 +128,7 @@ section img{
 }
 
 .imageBorder{
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid var(--white);
     filter: grayscale(100);
 }
