@@ -521,6 +521,7 @@ footer p span{
     .wrapper{
         max-width: 600px;
     }
+
     .carousel img{
         height: 230px;
     }
@@ -563,7 +564,7 @@ footer p span{
 
 @media only screen and (max-width: 598px) {
     .wrapper{
-        max-width: 400px;
+        max-width: 350px;
     }
 
     .carousel img{

@@ -139,10 +139,10 @@ section img{
 }
 
 section .poster{
-    background-image: url(/assets/registrationBg.svg);
+    background-image: url(/assets/PosterImg.svg);
     background-size: cover;
-    width: 600px;
-    height: 700px;
+    width: 960px;
+    height: 680px;
 }
 
 footer{
@@ -177,8 +177,8 @@ footer p span{
     }
 
     section .poster{
-        width: 500px;
-        height: 600px;
+        width: 800px;
+        height: 564px;
     }
 }
 
@@ -189,8 +189,8 @@ footer p span{
     }
 
     section .poster{
-        width: 400px;
-        height: 500px;
+        width: 500px;
+        height: 356px;
     }
 
     footer p{
@@ -227,8 +227,8 @@ footer p span{
     }
 
     section .poster{
-        width: 300px;
-        height: 400px;
+        width: 400px;
+        height: 285px;
     }
 
     footer p{
