@@ -410,6 +410,10 @@ footer p span{
         width: 350px;
     }
 
+    .center .frame .right h1{
+        text-align: center;
+    }
+
     section .frame .right p{
         width: 470px;
     }
