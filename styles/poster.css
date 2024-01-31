@@ -221,6 +221,10 @@ footer p span{
         display: block;
     }
 
+    section{
+        padding-bottom: 7.5rem;
+    }
+
     section img{
         margin-top: 1.5rem;
         width: 200px;
