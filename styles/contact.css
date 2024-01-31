@@ -43,7 +43,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     padding: 1rem 3rem;
     text-transform: uppercase;
     font-weight: 600;
@@ -159,7 +159,7 @@ section .frame .left{
 }
 
 section .frame .left .img1{
-    background-image: url(/assets/people1.jpg);
+    background-image: url(/assets/sasikumar.jpg);
     background-size: cover;
     width: 130px;
     height: 130px;
@@ -243,7 +243,7 @@ section .frame .right{
 }
 
 section .frame .right .img2{
-    background-image: url(/assets/people1.jpg);
+    background-image: url(/assets/chandru.jpg);
     background-size: cover;
     width: 130px;
     height: 130px;

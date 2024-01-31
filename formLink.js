@@ -34,8 +34,7 @@ const formLinkBtns = document.querySelectorAll('#formLink');
 if (formLinkBtns) {
     formLinkBtns.forEach(function (button) {
         button.addEventListener('click', function () {
-            window.open('https://fonts.google.com/', '_blank', 'noopener');
-            // form Link
+            window.open('/pages/registraionForm.html', '_blank', 'noopener');
         });
     });
 }

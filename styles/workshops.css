@@ -43,7 +43,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     padding: 1rem 3rem;
     text-transform: uppercase;
     font-weight: 600;
@@ -169,7 +169,7 @@ section img{
     background-color: #fff;
     width: 250px;
     height: 300px;
-    background-image: url(/assets/event1.svg);
+    background-image: url(/assets/workshop1.svg);
     background-size: cover;
     filter: grayscale(100);
 }
@@ -194,52 +194,7 @@ section img{
     background-color: #fff;
     width: 250px;
     height: 300px;
-    background-image: url(/assets/event2.svg);
-    background-size: cover;
-    filter: grayscale(100);
-}
-
-.center .frame .img3{
-    background-color: #fff;
-    width: 250px;
-    height: 300px;
-    background-image: url(/assets/event3.svg);
-    background-size: cover;
-    filter: grayscale(100);
-}
-
-.center .frame .img4{
-    background-color: #fff;
-    width: 250px;
-    height: 300px;
-    background-image: url(/assets/event4.svg);
-    background-size: cover;
-    filter: grayscale(100);
-}
-
-.center .frame .img5{
-    background-color: #fff;
-    width: 250px;
-    height: 300px;
-    background-image: url(/assets/event5.svg);
-    background-size: cover;
-    filter: grayscale(100);
-}
-
-.center .frame .img6{
-    background-color: #fff;
-    width: 250px;
-    height: 300px;
-    background-image: url(/assets/event6.svg);
-    background-size: cover;
-    filter: grayscale(100);
-}
-
-.center .frame .img7{
-    background-color: #fff;
-    width: 250px;
-    height: 300px;
-    background-image: url(/assets/event7.svg);
+    background-image: url(/assets/workshop2.svg);
     background-size: cover;
     filter: grayscale(100);
 }
@@ -337,10 +292,6 @@ footer p span{
     .center .frame .right{
         align-items: center;
         justify-content: center;
-    }
-
-    .center .frame .right{
-        width: 900px;
     }
 
     .center .frame .right p{
