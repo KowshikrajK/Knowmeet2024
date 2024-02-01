@@ -405,6 +405,7 @@ nav::before{
 
 .about .content{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 7rem;
 }
@@ -415,6 +416,8 @@ nav::before{
 }
 
 .about .content .left p{
+    /* text-align: justify; */
+    line-height: 22px;
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 2px;
