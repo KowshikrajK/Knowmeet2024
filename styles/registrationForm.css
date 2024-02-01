@@ -131,9 +131,8 @@ section img{
 
 section iframe{
     padding: 2rem 1rem;
-    border: 1px solid var(--white);
     width: 900px;
-    height: 1750px;
+    height: 1950px;
 }
 
 footer{
