@@ -240,6 +240,7 @@ section img{
 }
 
 .center .frame .right p{
+    text-align: justify;
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 2px;
