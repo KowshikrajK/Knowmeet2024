@@ -43,7 +43,6 @@ body {
 }
 
 .warning{
-    display: none;
     padding: 1rem;
     color: #000;
     font-size: 1.3rem;
