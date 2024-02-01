@@ -416,7 +416,7 @@ nav::before{
 }
 
 .about .content .left p{
-    /* text-align: justify; */
+    text-align: justify;
     line-height: 22px;
     font-size: 1rem;
     font-weight: 400;
