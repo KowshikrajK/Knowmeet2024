@@ -262,7 +262,7 @@ nav::before{
     object-fit: cover;
     user-select: none;
     margin-left: 14px;
-    width: calc(100% / 3);
+    width: 300px;
     filter: grayscale(100);
   }
   
