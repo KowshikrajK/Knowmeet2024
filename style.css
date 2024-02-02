@@ -50,6 +50,7 @@ body {
     top: 10rem;
     background: #ffea00;
     z-index: 5;
+    display: none;
 }
 
 .title{
