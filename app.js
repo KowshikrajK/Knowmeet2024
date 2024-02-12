@@ -172,6 +172,15 @@ if(linkTreeBtn){
     });
 }
 
+const instaLinkBtn = document.querySelector('#instaLink');
+
+if(instaLinkBtn){
+    instaLinkBtn.addEventListener('click', function() {
+        navigateTo('https://www.instagram.com/scintel_association/');
+    });
+}
+
 function navigateTo(page) {
     window.location.href = page;
 }
+

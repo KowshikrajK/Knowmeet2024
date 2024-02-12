@@ -458,7 +458,7 @@ nav::before{
 
 .about .content .right{
     width: 480px;
-    height: 250px;
+    height: 350px;
     border: 1px solid var(--white);
     padding: 1rem;
     overflow-x: visible;
@@ -482,6 +482,26 @@ nav::before{
     letter-spacing: 2px;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.instaIcon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    padding: 1rem 0rem;
+    cursor: pointer;
+}
+
+.instaIcon h4{
+    font-weight: 400;
+}
+
+.about .content .left .insta{
+    background-image: url(/assets/icons8-instagram.svg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
 }
 
 .about .content .left .contactBtn:hover{
@@ -553,7 +573,7 @@ footer p span{
     }
 
     .carousel img{
-        height: 230px;
+        height: 350px;
     }
 
     .title img{
@@ -574,12 +594,12 @@ footer p span{
     }
 
     .stringStar1{
-        top: 59rem;
+        top: 62rem;
         left: 0rem;
     }
     
     .stringStar2{
-        top: 138rem;
+        top: 142rem;
         left: 0rem;
     }
 
