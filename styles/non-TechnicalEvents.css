@@ -388,6 +388,22 @@ footer p span{
         width: 470px;
     }
 
+    .center .frame .img1{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img2{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img3{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img4{
+        filter: grayscale(0);
+    }
+
     footer p{
         text-align: center;
         font-size: 7px;

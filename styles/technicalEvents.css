@@ -415,6 +415,34 @@ footer p span{
         text-align: center;
     }
 
+    .center .frame .img1{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img2{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img3{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img4{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img5{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img6{
+        filter: grayscale(0);
+    }
+    
+    .center .frame .img7{
+        filter: grayscale(0);
+    }
+
     section .frame .right p{
         width: 470px;
     }

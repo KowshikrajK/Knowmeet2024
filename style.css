@@ -70,7 +70,7 @@ nav {
     padding: 1rem 3rem;
     text-transform: uppercase;
     font-weight: 600;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     top: 0;
     left: 0;
@@ -91,7 +91,7 @@ nav::before{
 .navLeft{
     display: flex;
     gap: 2rem;
-    z-index: 2;
+    z-index: 3;
 }
 
 #check{
@@ -324,6 +324,31 @@ nav::before{
     background-size: cover;
     width: 250px;
     height: 300px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+}
+
+.registerBtn{
+    background: none;
+    color: var(--white);
+    font-family: var(--AdventPro);
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--white);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.registerBtn:hover{
+    background: var(--white);
+    color: var(--black);
 }
 
 .eventBtn{
@@ -569,6 +594,15 @@ footer p span{
 }
 
 @media only screen and (max-width: 598px) {
+    .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 7rem;
+        left: 11rem;
+    }
+
     .wrapper{
         max-width: 350px;
     }
@@ -613,6 +647,7 @@ footer p span{
     }
 
     .menu{
+        z-index: 4;
         display: block;
     }
 
@@ -657,6 +692,14 @@ footer p span{
         top: 148rem;
         left: 0rem;
         height: 300px;
+    }
+
+    .carousel img{
+        filter: grayscale(0);
+    }
+
+    .imageBorder{
+        filter: grayscale(0);
     }
 
     .about .aboutImg{

@@ -154,6 +154,16 @@ if(ContactBtn){
     });
 }
 
+const formLinkBtns = document.querySelectorAll('#formLink');
+
+if (formLinkBtns) {
+    formLinkBtns.forEach(function (button) {
+        button.addEventListener('click', function () {
+            window.open('/pages/registraionForm.html', '_blank', 'noopener');
+        });
+    });
+}
+
 const linkTreeBtn = document.querySelector('#linkTree');
 
 if(linkTreeBtn){
