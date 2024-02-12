@@ -598,6 +598,8 @@ footer p span{
         display: flex;
         align-items: center;
         justify-content: center;
+        position: relative;
+        top: 5rem;
     }
 
     .wrapper{
