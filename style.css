@@ -75,6 +75,7 @@ nav {
     top: 0;
     left: 0;
     width: 100vw;
+    overflow-y: hidden;
 }
 
 nav::before{
@@ -382,7 +383,7 @@ nav::before{
 
 .stringStar2{
     position: absolute;
-    top: 115rem;
+    top: 119rem;
     left: 0rem;
     background-image: url(/assets/About\ String.svg);
     background-size: cover;
@@ -594,12 +595,12 @@ footer p span{
     }
 
     .stringStar1{
-        top: 62rem;
+        top: 70rem;
         left: 0rem;
     }
     
     .stringStar2{
-        top: 142rem;
+        top: 150rem;
         left: 0rem;
     }
 
