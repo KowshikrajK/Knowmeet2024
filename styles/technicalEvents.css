@@ -280,6 +280,12 @@ section img{
     text-transform: uppercase;
 }
 
+.center .frame .right .closed{
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 button{
     padding: 0.5rem;
     color: var(--black);
